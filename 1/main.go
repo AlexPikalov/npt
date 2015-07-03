@@ -100,7 +100,7 @@ func isWordInArray (word string, words []string) bool {
 	return false
 }
 
-// for sort strings alphabetically
+// for sort strings from longests to shortests
 type ByLen []string
 
 func (a ByLen) Len() int { return len(a) }
